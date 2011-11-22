@@ -1,0 +1,15 @@
+////////////////////////////////////////////////////////////////////////////////
+//
+//  CLOUD CREATIVE STUDIOS, INC.
+//
+//  Copyright (C) 2011 Cloud Creative Studios, Inc.
+//  All Rights Reserved.
+//
+//  http://cloud-creative-studios.com
+//
+////////////////////////////////////////////////////////////////////////////////
+
+Ti.include("/sources/sc.js");
+
+sc.ui.mainWindow = sc.ui.createApplicationWindows();
+sc.ui.mainWindow.open();
