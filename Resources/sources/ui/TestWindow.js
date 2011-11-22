@@ -22,10 +22,7 @@
 			var button = Ti.UI.createButton({
 				title:"開く",
 				width:200,
-				height:50,
-				backgroundColor:sc.config.UI.BackgroundColor,
-				borderWidth:sc.config.Debug.Border,
-				borderColor:sc.config.Debug.BorderColor
+				height:50
 			});
 			button.addEventListener("click", function(e) {
 				var win = sc.ui.createTestWindow();
